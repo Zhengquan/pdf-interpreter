@@ -1,7 +1,16 @@
-# AI 文档解读助手
+# PDF 文档解读助手
 
 一个基于大模型的文档解读工具，可以自动分析文档内容，生成结构化的解读报告。特别适合处理技术文档、产品文档等专业内容。
 
+```bash
+初始化生成器...
+开始处理文件，主题: 技术主题
+正在读取文件: data/PDF解析之后的文本.txt
+共发现 6 页内容
+
+生成笔记:  17%|██████████████                      | 1/6 [00:25<02:08, 25.72s/页, 调用: 1次 | Token: 1,119 | 费用: ¥0.0045]
+
+```
 ## 功能特点
 
 - PDF文本提取：自动提取PDF文档中的文本内容
@@ -20,8 +29,8 @@
 
 1. 克隆项目并安装依赖：
 ```bash
-git clone [repository-url]
-cd [project-directory]
+git clone git@github.com:Zhengquan/pdf-interpreter.git
+cd pdf-interpreter
 pip install -r requirements.txt
 ```
 
